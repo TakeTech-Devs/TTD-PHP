@@ -24,7 +24,7 @@
                     <h5>Your Business Potential With Our Proven Strategies</h5>
                     <p>For all other enquiries, contact with us and our team will be in touch.</p>
                     <form class="subscription-form">
-                        <input type="email" class="form-control" placeholder="Your Email Address">
+                        <input type="email" name="s_email" class="form-control" placeholder="Your Email Address">
                         <button class="btn btn-primary">Subscribe</button>
                     </form>
                 </div>
@@ -38,7 +38,7 @@
             <div class="row footer-content">
                 <div class="col-sm-4 footer-about">
                     <div class="footer-logo">
-                        <a href="/">
+                        <a href="index.php">
                             <img src="./assets/images/logo.png" alt="TakeTech Logo">
                         </a>
                     </div>

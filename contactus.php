@@ -55,10 +55,10 @@
                             <div class="contact-form-wrapper">
                                 <form class="contact-subscription-form">
                                     <h6>Get In Touch</h6>
-                                    <input type="text" class="form-control" placeholder="Name">
-                                    <input type="email" class="form-control" placeholder="Email">
-                                    <input type="text" class="form-control" placeholder="Subject">
-                                    <textarea class="form-control" placeholder="Your Message"></textarea>
+                                    <input type="text" name="c_name" class="form-control" placeholder="Name">
+                                    <input type="email" name="c_email" class="form-control" placeholder="Email">
+                                    <input type="text" name="c_subject" class="form-control" placeholder="Subject">
+                                    <textarea class="form-control" name="c_message" placeholder="Your Message"></textarea>
 
                                     <div class="d-flex justify-content-center">
                                         <button type="submit" class="secondary-button">Submit</button>
