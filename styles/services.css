@@ -1,0 +1,57 @@
+/* Service Banner Css */
+.service-banner-text {padding-block-start:90px; padding-inline-end:80px;}
+.service-banner-image {height:auto; max-height:100%; width:100%; display:flex; justify-content:end; align-items:center; padding-block-start:90px;}
+.service-banner-image img {object-fit:contain;}
+
+/* Service Content Css */
+.service-content-text {padding-top:220px;}
+.service-content-image {width:90%;}
+.service-content-image img {object-fit:contain;}
+.service-content-main {margin-bottom:30px;}
+
+/* Service Providing Css */
+.service-right-content {background-color:#B8DC9E; width:350px; height:110px; padding-top:60px; box-shadow:-15px 10px 20px 0px #52793740; text-align:center; position:relative; padding-bottom:50px; display:flex; align-items:center; justify-content:center;}
+.service-right-content-image {width:100px; height:100px; background:#fff; border-radius:50%; box-shadow:0px -5px 25px 0px #98C97480; display:flex; align-items:center; justify-content:center; position:absolute; top:-75px; left:50%; transform:translateX(-50%);}
+.service-right-content-image img {object-fit:contain;}
+.service-right-grid {display:flex; flex-wrap:wrap; gap:90px 0; justify-content:center;}
+
+/* Service Choose Css */
+.service-choose-image img {object-fit:contain;}
+
+@media screen and (max-width: 768px) {
+.service-banner-text {padding-inline-end:20px;}
+.service-banner-image {flex-direction:column;}
+}
+
+@media screen and (max-width: 575px) {
+.service-upper {height:230vh; background-size:cover;}
+.service-banner-text {padding-inline-end:10px;}
+.service-banner-image {padding-block-start:5px;}
+.service-banner-image img {width:90%;}
+}
+
+@media screen and (max-width: 768px) {
+.service-content-section {width:320px;}
+.service-content-image {width:320px;}
+}
+
+@media screen and (max-width: 575px) {
+.service-content-main {flex-wrap:wrap;}
+.service-content-section {width:100%}
+.service-content-image {width:80%;}
+.service-content-header {gap:30px;}
+}
+
+@media screen and (max-width: 768px) {
+.service-right-content-image {width:75px; height:75px; top:-50px;}
+.service-right-content {width:190px;}
+}
+
+@media screen and (max-width: 575px) {
+.service-right-grid {padding-top:70px;}
+.service-right-content {width:310px;}
+}
+
+@media screen and (max-width: 768px) {
+.service-choose-image {flex-wrap:wrap;}
+}
