@@ -11,7 +11,28 @@
     rel="stylesheet">
 </head>
 <body>
+    <!-- Contact Section -->
+    <div class="container-xxl contact-section">
+        <div class="row d-flex align-items-center justify-content-space-between">
+            <div class="col-sm-6">
+                <div class="contact-image">
+                    <img src="./assets/images/ContactSection.png" alt="Contact">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="contact-text">
+                    <h5>Your Business Potential With Our Proven Strategies</h5>
+                    <p>For all other enquiries, contact with us and our team will be in touch.</p>
+                    <form class="subscription-form">
+                        <input type="email" class="form-control" placeholder="Your Email Address">
+                        <button class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Footer -->
     <footer class="footer footer-mobile">
         <div class="container-xxl">
             <div class="row footer-content">

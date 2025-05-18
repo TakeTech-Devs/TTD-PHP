@@ -1,0 +1,109 @@
+/* About Banner Css */
+.aboutus-banner-text {padding-block-start:90px; padding-inline-end:80px;}
+.aboutus-banner-image {height:auto; max-height:100%; width:100%; display:flex; justify-content:end; align-items:center; padding-block-start:90px;}
+.aboutus-banner-image img {object-fit:contain;}
+
+/* About Content Css */
+.about-content-main {margin-top:35px !important; gap:50px !important;}
+.about-content-left-container {width:48% !important;}
+.about-content-right-container {width:48% !important;}
+.about-content-text {padding-top:220px;}
+.about-content img {object-fit:contain;}
+
+/* About Memories Css */
+.about-memories-section-image {height:25px; width:25px; display:flex;}
+.about-memories-section-image img {object-fit:contain;}
+.about-container-header h6 {font-weight:700; font-size:40px;}
+.about-photo-grid {background-color:#fff; padding:48px 65px; box-shadow:0px 0px 25px 0px #52793780;}
+.about-container-header {cursor:pointer; border-bottom:4px solid transparent; transition:all 0.3s ease;}
+.about-container-header.active {border-bottom:4px solid #88A275;}
+.about-memories-section {width:100%; max-width:780px !important; height:75px; background-color:#fff; border-radius:38px; margin-bottom:30px !important; margin-top:30px !important; padding:0px !important; box-shadow:0px 0px 15px 0px #52793740;}
+.about-memories-section>div {flex:1; height:100%; border-radius:38px; display:flex; align-items:center; justify-content:center; gap:10px; cursor:pointer; transition:background-color 0.3s ease;}
+.about-memories-section>div.active {background-color:#DFF2D1;}
+
+/* About Mission Css */
+.about-mission-section {display:flex; align-items:center; justify-content:center; margin-top:100px; position:relative;}
+.about-mission-section::after {content:""; position:absolute; width:100%; height:90%; left:0; top:50%; transform:translateY(-50%); z-index:0; background-color:#B8DC9E;}
+.about-mission-text {z-index:1; position:relative;}
+.about-mission-image img {object-fit:contain;}
+.about-mission-text h6 {font-weight:700; font-size:40px; line-height:60px;}
+.about-mission-right-text, .about-mission-left-text {width:80%; margin-top:65px; margin-left:65px;}
+
+/* About Contender Css */
+.profile-gallery {display:flex; gap:20px; flex-wrap:nowrap; overflow-x:auto; background-color:#fff; padding:20px; box-shadow:0px 0px 25px 0px #52793780; justify-content:center;}
+.image-wrap {display:flex; flex-direction:column; align-items:center; width:205px; transition:all 0.3s ease-in-out; cursor:pointer; padding:10px; flex-shrink:0;}
+.profile-thumbnail img {width:185px; height:235px; object-fit:cover; transition:transform 0.3s ease;}
+.content {display:none; width:100%; margin-top:10px; text-align:center;}
+.image-wrap.active {flex-direction:row; align-items:flex-start; width:500px; flex-shrink:0;}
+.image-wrap.active .profile-thumbnail {width:230px; height:300px; margin-right:20px; flex-shrink:0;}
+.image-wrap.active .profile-thumbnail img {height:100%; width:100%; transform:scale(1.05);}
+.image-wrap.active .content {display:block; text-align:left;}
+.about-contender-logo img {width:24px; height:24px; object-fit:contain;}
+
+@media screen and (max-width: 768px) {
+.aboutus-banner-text {padding-inline-end:20px;}
+.aboutus-banner-image {flex-direction:column;}
+}
+
+@media screen and (max-width: 575px) {
+.aboutus-upper {height:230vh; background-size:cover;}
+.aboutus-banner-text {padding-inline-end:10px;}
+.aboutus-banner-image {padding-block-start:5px;}
+.aboutus-banner-image img {width:90%;}
+}
+
+@media screen and (max-width: 768px) {
+.about-content-main {gap:25px !important;}
+.about-content-text {padding-top:180px;}
+}
+
+@media screen and (max-width: 575px) {
+.about-content-image {display:flex; justify-content:center;}
+.about-content-image img {height:440px; object-fit:cover;}
+.about-content-left-container {width:100% !important;}
+.about-content-right-container {width:100% !important;}
+}
+
+@media screen and (max-width: 768px) {
+.about-container-header h6 {font-size:25px;}
+.about-memories-section {max-width:600px !important; height:50px;}
+}
+
+@media screen and (max-width: 575px) {
+.about-memories-section-image {height:15px; width:15px;}
+}
+
+@media screen and (max-width: 768px) {
+.about-mission-section {flex-direction:column; padding:20px; background-color:#B8DC9E;}
+.about-mission-section::after {display:none;}
+.about-mission-right-text, .about-mission-left-text {width:100%; margin:0;}
+.about-mission-text h6 {font-size:25px; line-height:45px;}
+.about-mission-text-bottom {margin-top:50px !important;}
+}
+
+@media screen and (max-width: 575px) {
+.about-mission-text h6 {line-height:36px;}
+.about-mission-image {height:auto;}
+}
+
+@media (max-width: 768px) {
+.profile-thumbnail {display:flex; justify-content:center}
+.profile-gallery {flex-wrap:wrap; justify-content:center; overflow-x:hidden;}
+.image-wrap {margin-bottom:20px;}
+.image-wrap.active {flex-direction:column; width:100%; align-items:center;}
+.image-wrap.active .profile-thumbnail {width:100%; height:auto; margin:0 0 15px 0;}
+.image-wrap.active .profile-thumbnail img {width:215px; height:250px;}
+.image-wrap.active .content {text-align:center;}
+.about-contender-logo {justify-content:center;}
+}
+
+@media (max-width: 576px) {
+.profile-gallery {flex-direction:column; gap:15px; overflow-x:unset;}
+.image-wrap {width:100%;}
+.image-wrap.active {width:100%;}
+.about-contender-logo {justify-content:center;}
+.about-contender-logo img {width:20px; height:20px;}
+.content p {font-size:14px;}
+.content h5 {font-size:18px;}
+.content h6 {font-size:16px;}
+}
