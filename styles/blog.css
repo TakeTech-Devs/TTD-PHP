@@ -1,0 +1,55 @@
+/* Blog Banner Css */
+.blog-banner-text {padding-block-start:90px; padding-inline-end:80px;}
+.blog-banner-image {height:auto; max-height:100%; width:100%; display:flex; justify-content:end; align-items:center; padding-block-start:90px;}
+.blog-banner-image img {object-fit:contain;}
+
+/* Blog Content Css */
+.blog-content-container {margin-top:220px;}
+.blog-content {display:flex; align-items:center; justify-content:center; margin-top:100px; position:relative;}
+.blog-content::after {content:""; position:absolute; width:100%; height:100%; left:0; top:50%; transform:translateY(-50%); z-index:0; background-color:#fff; box-shadow:0px 0px 25px 0px #52793780;}
+.blog-content-image {max-height:100%; width:100%; display:flex; justify-content:center; align-items:center; z-index:1; position:relative; padding:50px 20px;}
+.blog-content-image img {object-fit:contain;}
+.blog-content-text {z-index:1; position:relative;}
+
+/* Blog Like Css */
+.blog-like-text h6 {font-weight:700; font-size:40px; line-height:80px;}
+.blog-like-card {position:relative; width:410px; height:650px; overflow:hidden; transition:transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out; box-shadow:0px 0px 25px 0px #52793780;}
+.blog-like-card-image {width:410px;}
+.blog-like-card-image img {object-fit:contain;}
+.blog-like-content {position:absolute; bottom:0; height:290px; display:flex; flex-direction:column; justify-content:end; background:#FFF; padding:20px 25px;}
+.blog-like-content h5 {line-height:50px; font-size:22px;}
+
+@media screen and (max-width: 768px) {
+.blog-banner-text {padding-inline-end:20px;}
+.blog-banner-image {flex-direction:column;}
+}
+
+@media screen and (max-width: 575px) {
+.blog-upper {height:230vh; background-size:cover;}
+.blog-banner-text {padding-inline-end:10px;}
+.blog-banner-image {padding-block-start:5px;}
+.blog-banner-image img {width:90%;}
+}
+
+@media screen and (max-width: 768px) {
+.blog-content {padding:20px;}
+.blog-content-text {padding-left:20px;}
+}
+
+@media screen and (max-width: 575px) {
+.blog-content-image {padding:20px 20px 0px 20px;}
+}
+
+@media screen and (max-width: 768px) {
+.blog-like-card-image {width:100%; height:100%;}
+.blog-like-card {height:100%; width:100%;}
+.blog-like-content {height:auto; padding:15px;}
+.blog-like-content h5 {font-size:18px; line-height:30px;}
+.blog-like-text h6 {font-size:25px;}
+}
+
+@media screen and (max-width: 575px) {
+.blog-like-card {height:545px;}
+.blog-like-content {height:200px; padding:10px;}
+.blog-like-card-image {height:auto;}
+}
