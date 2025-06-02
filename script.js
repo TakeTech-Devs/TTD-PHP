@@ -79,6 +79,13 @@ document.addEventListener('click', function (e) {
     const clicked = e.target.closest('.image-wrap');
     if (!clicked) return;
 
+    // If clicked already has 'active', remove it and exit
+    if (clicked.classList.contains('active')) {
+        clicked.classList.remove('active');
+        return;
+    }
+
+    // Else, remove 'active' from all and add to clicked
     document.querySelectorAll('.image-wrap').forEach(c => c.classList.remove('active'));
     clicked.classList.add('active');
 });
@@ -86,36 +93,52 @@ document.addEventListener('click', function (e) {
 
 });
 
-
 /* Carousel & Feedback Slick Sliders */
-// $(document).ready(function () {
-    
-//     $('.carousel-slider').slick({
-//         dots: false,
-//         infinite: true,
-//         speed: 500,
-//         slidesToShow: 1,
-//         slidesToScroll: 1,
-//         autoplay: true,
-//         autoplaySpeed: 2000,
-//         arrows: false,
-//         centerMode: true,
-//         responsive: [
-//             { breakpoint: 1024, settings: { slidesToShow: 1 } },
-//             { breakpoint: 768, settings: { slidesToShow: 1 } }
-//         ]
-//     });
+$(document).ready(function () {
+    $('.carousel-slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        centerPadding: '60px',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        variableWidth: true,
+        arrows: false,
+        centerMode: true,
+        responsive: [
+            { breakpoint: 1024, settings: { slidesToShow: 1 } },
+            { breakpoint: 768, settings: { slidesToShow: 1 } }
+        ]
+    });
+    $('#customPrevBtn').on('click', function(){
+        $('.carousel-slider').slick('slickPrev');
+    });
 
+    $('#customNextBtn').on('click', function(){
+        $('.carousel-slider').slick('slickNext');
+    });
     
-//     $('.feedback-container').slick({
-//         vertical: true,
-//         verticalSwiping: true,
-//         slidesToShow: 1,
-//         slidesToScroll: 1,
-//         autoplay: true,
-//         autoplaySpeed: 2500,
-//         infinite: true,
-//         arrows: false,
-//         dots: false
-//     });
-// });
+    $('.feedback-container').slick({
+        vertical: true,
+        verticalSwiping: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        infinite: false,
+        arrows: false,
+        dots: false
+    });
+    $('.profile-gallery').slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+        variableWidth: true,
+        arrows: true,
+        centerMode: true,
+      });
+});

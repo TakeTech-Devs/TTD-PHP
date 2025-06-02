@@ -1,23 +1,24 @@
 /* Service Banner Css */
-.service-banner-text {padding-block-start:90px; padding-inline-end:80px;}
+/* .service-banner-text {padding-block-start:90px; padding-inline-end:80px;}
 .service-banner-image {height:auto; max-height:100%; width:100%; display:flex; justify-content:end; align-items:center; padding-block-start:90px;}
-.service-banner-image img {object-fit:contain;}
+.service-banner-image img {object-fit:contain;} */
 
 /* Service Content Css */
 .service-content-text {padding-top:220px;}
-.service-content-image {width:90%;}
+.service-content-image {width:70%;}
 .service-content-image img {object-fit:contain;}
 .service-content-main {margin-bottom:30px;}
 
 /* Service Providing Css */
-.service-right-content {background-color:#B8DC9E; width:350px; height:110px; padding-top:60px; box-shadow:-15px 10px 20px 0px #52793740; text-align:center; position:relative; padding-bottom:50px; display:flex; align-items:center; justify-content:center;}
-.service-right-content-image {width:100px; height:100px; background:#fff; border-radius:50%; box-shadow:0px -5px 25px 0px #98C97480; display:flex; align-items:center; justify-content:center; position:absolute; top:-75px; left:50%; transform:translateX(-50%);}
+/* .service-right-content {background-color:#B8DC9E; width:350px; height:110px; padding-top:60px; box-shadow:-15px 10px 20px 0px #52793740; text-align:center; position:relative; padding-bottom:50px; display:flex; align-items:center; justify-content:center;} */
+.service-right-content-image {width:100px; height:100px; background:#fff; border-radius:50%; box-shadow:0px -5px 25px 0px #98C97480;z-index: 2; }
 .service-right-content-image img {object-fit:contain;}
-.service-right-grid {display:flex; flex-wrap:wrap; gap:90px 0; justify-content:center;}
-
+.service-right-grid {display:flex; flex-wrap:wrap; justify-content:center;}
+.service-right-content p{background-color:#B8DC9E; width:350px; height:110px; padding-top:60px; box-shadow:-15px 10px 20px 0px #52793740; text-align:center; padding-bottom:50px;margin-top: -50px;}
 /* Service Choose Css */
 .service-choose-image img {object-fit:contain;}
 
+.feedback-text{width: 900px;}
 @media screen and (max-width: 768px) {
 .service-banner-text {padding-inline-end:20px;}
 .service-banner-image {flex-direction:column;}

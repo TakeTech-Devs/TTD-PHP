@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./styles/aboutus.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    
     <link
         href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -23,9 +25,9 @@
             <section id="about-banner">
                 <div class="global-banner global-banner-others others-banner-mobile">
                     <div class="container-xxl">
-                        <div class="row">
-                            <div class="col-sm-5 d-flex align-items-center">
-                                <div class="aboutus-banner-text">
+                        <div class="row left">
+                            <div class="col-sm-5 d-flex align-items-center banner">
+                                <div class="banner-text">
                                     <h1>About Us</h1>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -35,7 +37,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-7">
-                                <div class="aboutus-banner-image">
+                                <div class="banner-image">
                                     <img src="./assets/images/aboutusbanner.png" alt="aboutuss">
                                 </div>
                             </div>
@@ -69,14 +71,14 @@
 
                     <div class="container-xxl">
                         <div class="row about-content-main">
-                            <div class="about-content-left-container">
+                            <div class="about-content-left-container col-sm-5">
                                 <div class="about-content-image">
                                     <img src="./assets/images/About Content.png" alt="Desktop" class="desktop">
                                 </div>
                             </div>
 
                             <div
-                                class="about-content-right-container d-flex align-items-center justify-content-space-between">
+                                class="about-content-right-container col-sm-7 d-flex align-items-center justify-content-space-between">
                                 <div class="about-right-content">
                                     <h5>Our History</h5>
                                     <p class="pb-3 pt-3">Initially we started it like a hobby, and people like our work
@@ -290,7 +292,7 @@
                         </div>
                     </div>
 
-                    <div class="profile-gallery">
+                    <div class="container-xxl profile-gallery">
                         <div class="image-wrap">
                             <div class="profile-thumbnail">
                                 <img src="./assets/images/aboutcontkg.jpg" alt="Kaustav Ghosh" />
@@ -299,7 +301,7 @@
                                 <h5>Kaustav Ghosh</h5>
                                 <h6>Frontend Developer</h6>
                                 <hr />
-                                <p>Lorem ipsum dolor sit amet...</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreet.</p>
                                 <div class="about-contender-logo d-flex gap-3">
                                     <a href="#"><img src="./assets/images/About Email.png" alt="Email" /></a>
                                     <a href="#"><img src="./assets/images/About Linkedin.png" alt="LinkedIn" /></a>
@@ -307,7 +309,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="image-wrap">
                             <div class="profile-thumbnail">
                                 <img src="./assets/images/aboutcontgs.jpg" alt="Profile 1" />
@@ -316,7 +317,7 @@
                                 <h5>Gautam Sharma</h5>
                                 <h6>Mentor</h6>
                                 <hr />
-                                <p>Lorem ipsum dolor sit amet...</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreet.</p>
                                 <div class="about-contender-logo d-flex gap-3">
                                     <a href="#"><img src="./assets/images/About Email.png" alt="Email" /></a>
                                     <a href="#"><img src="./assets/images/About Linkedin.png" alt="LinkedIn" /></a>
@@ -324,7 +325,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="image-wrap">
                             <div class="profile-thumbnail">
                                 <img src="./assets/images/aboutcontsb.jpeg" alt="Kaustav Ghosh" />
@@ -389,7 +389,9 @@
         <?php include 'footer.php'; ?>
     </section>
 
-
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.5.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
     

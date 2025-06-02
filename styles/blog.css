@@ -1,15 +1,12 @@
 /* Blog Banner Css */
-.blog-banner-text {padding-block-start:90px; padding-inline-end:80px;}
+/* .blog-banner-text {padding-block-start:90px; padding-inline-end:80px;}
 .blog-banner-image {height:auto; max-height:100%; width:100%; display:flex; justify-content:end; align-items:center; padding-block-start:90px;}
-.blog-banner-image img {object-fit:contain;}
+.blog-banner-image img {object-fit:contain;} */
 
 /* Blog Content Css */
 .blog-content-container {margin-top:220px;}
-.blog-content {display:flex; align-items:center; justify-content:center; margin-top:100px; position:relative;}
-.blog-content::after {content:""; position:absolute; width:100%; height:100%; left:0; top:50%; transform:translateY(-50%); z-index:0; background-color:#fff; box-shadow:0px 0px 25px 0px #52793780;}
-.blog-content-image {max-height:100%; width:100%; display:flex; justify-content:center; align-items:center; z-index:1; position:relative; padding:50px 20px;}
-.blog-content-image img {object-fit:contain;}
-.blog-content-text {z-index:1; position:relative;}
+.blog-content {display:flex; align-items:center; justify-content:space-between;background-color:#fff; box-shadow:0px 0px 25px 0px #52793780;padding: 40px}
+.blog-content-image {display:flex; justify-content:center; align-items:center;}
 
 /* Blog Like Css */
 .blog-like-text h6 {font-weight:700; font-size:40px; line-height:80px;}

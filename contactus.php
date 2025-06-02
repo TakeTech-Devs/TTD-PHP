@@ -23,9 +23,9 @@
             <section id="contact-banner">
                 <div class="global-banner global-banner-others others-banner-mobile">
                     <div class="container-xxl">
-                        <div class="row">
-                            <div class="col-sm-6 d-flex align-items-center">
-                                <div class="contact-banner-text">
+                        <div class="row left">
+                            <div class="col-sm-5 d-flex align-items-center banner">
+                                <div class="banner-text">
                                     <h1>Contact Us</h1>
                                     <p>
                                         TakeTech appreciate your interest in us. It's just not a website for you it's a
@@ -35,8 +35,8 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="contact-banner-image">
+                            <div class="col-sm-7">
+                                <div class="banner-image">
                                     <img src="./assets/images/Contact Us Banner.png" alt="contacts">
                                 </div>
                             </div>
@@ -48,7 +48,7 @@
                 <section class="gap-top gap-bottom" id="contact-us-form">
                     <div class="container-fluid p-0 position-relative contact-us-form-container">
                         <div class="contactus-background-image">
-                            <img src="./assets/images/ContactUs Bg.jpg" alt="">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.433832637836!2d88.01058257481638!3d22.74927582647276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f87b5e1c4f7ad1%3A0xa25e81362296f7ca!2sTakeTech%20Devs!5e0!3m2!1sen!2sin!4v1748790685338!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
                         <div class="form-overlay d-flex justify-content-end align-items-center">
@@ -65,12 +65,12 @@
                                     </div>
 
                                     <div class="contact-info mt-4">
-                                        <h5 class="mb-2">Contact Details</h5>
+                                        <h5 class="mb-0">Contact Details</h5>
                                         <div
-                                            class="d-flex justify-content-center gap-3 align-items-center mt-2 contact-details-info">
+                                            class="d-flex justify-content-center gap-3 align-items-center mt-0 contact-details-info">
                                             <div class="d-flex align-items-center gap-2">
-                                                <img src="./assets/images/Contact Mail.png" alt="mail" class="icon-img">
-                                                <p class="mb-0">mail@takethedevs.com</p>
+                                                <img src="./assets/images/Contact Mail.png" alt="mail" class="">
+                                                <p class="mb-0" style="font-family: Calibri;font-weight:500">mail@takethedevs.com</p>
                                             </div>
                                             <div class="d-flex align-items-center gap-2">
                                                 <img src="./assets/images/Contact Phone.png" alt="phone" class="icon-img">
@@ -78,8 +78,8 @@
                                             </div>
                                         </div>
 
-                                        <h5 class="mt-5 mb-2">Social Media</h5>
-                                        <div class="d-flex justify-content-center gap-3 mt-2">
+                                        <h5 class="mt-2 mb-0">Social Media</h5>
+                                        <div class="d-flex justify-content-center gap-3 mt-1">
                                             <img src="./assets/images/Contact Facebook.png" alt="Facebook"
                                                 class="contact-social-icon">
                                             <img src="./assets/images/Contact WhatsApp.png" alt="WhatsApp"
