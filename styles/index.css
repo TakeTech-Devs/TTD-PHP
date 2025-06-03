@@ -81,17 +81,19 @@
 @media screen and (max-width: 768px) {
 .banner-text {padding-inline-end:20px;}
 .banner-image {flex-direction:column;}
+.global-banner{height: 750px;}
 }
 
 @media screen and (max-width: 575px) {
 .banner-text {padding-inline-end:10px;}
-.banner-image {padding-block-start:5px;}
-.banner-image img {width:90%;}
+.banner-image {padding-block-start:40px;}
+/* .banner-image img {width:90%;} */
+.global-banner{height: 1125px;}
 }
 
 @media screen and (max-width: 768px) {
-.about-text {padding-inline-end:10px; padding-top:150px;}
-.about-image {padding-top:150px;}
+.about-text {padding-inline-end:10px;}
+/* .about-image {padding-top:150px;} */
 .about-text h6 {font-size:24px;}
 .about-right {width:100%;}
 .about-section {flex-direction:column; height:auto; padding:20px;}
@@ -125,25 +127,25 @@
 }
 
 @media screen and (max-width: 768px) {
-.blog-card {height:600px;}
+.blog-card {height:475px;}
 .blog-content {height:200px; padding:15px;}
 .blog-content h5 {font-size:18px; line-height:30px;}
 }
 
 @media screen and (max-width: 575px) {
-.blog-card {height:500px; width:100%;}
+.blog-card {height:425px;}
 .blog-content {height:190px; padding:10px;}
 }
 
 @media screen and (max-width: 768px) {
 .contender-container {padding:15px;}
 .contender-card, .contender-card-text {text-align:center;}
-.contender-card img {width:160px; height:230px; margin:0;}
+.contender-card img {width:200px; height:200px; margin:0;}
 .contenders-button {margin-top:30px;}
 }
 
 @media screen and (max-width: 575px) {
-.contender-card img {width:140px; height:200px;}
+.contender-card img {width:150px; height:150px;}
 .contender-card {flex-direction:column; padding:10px; width:100% !important; justify-content:center; align-items:center; text-align:center;}
 .contender-card-text {padding:10px; width:100% !important;}
 .contenders-button {margin-top:20px;}

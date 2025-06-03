@@ -30,8 +30,12 @@
                         <div class="row left">
                             <div class="col-sm-6 banner">
                                 <div class="banner-text">
-                                    <h1>We Are TakeTech Devs</h1>
-                                    <div class="mb-3 mb-sm-1 mb-lg-4">
+                                    <div>
+                                        <h1 class="mb-0">We Are</h1>
+                                        <h1>TakeTech Devs</h1>
+                                    </div>
+                                    
+                                    <div class="mb-2 mb-sm-1 mb-lg-4">
                                         <h4>Your Reliable</h4>
                                         <h4>Web Development Agency.</h4>
                                     </div>
@@ -41,7 +45,7 @@
                                         perfection
                                         and enhances innovation.
                                     </p>
-                                    <div class="d-flex flex-wrap gap-4 align-items-center">
+                                    <div class="d-flex flex-wrap gap-3 gap-lg-4 align-items-center">
                                         <div>
                                             <h3 class="text-center">23+</h3>
                                             <p class="text-center mb-0">Happy Clients</p>

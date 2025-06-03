@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./styles/services.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <!-- <link rel="stylesheet" href="./styles/index.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 
@@ -60,13 +60,13 @@
                             </div>
                         </div>
                         <div class="row service-content-header">
-                            <div class="d-flex gap-2 align-items-center service-content-main gap-top">
-                                <div class="col-sm-5">
+                            <div class="d-flex gap-2 align-items-center justify-content-center service-content-main gap-top">
+                                <div class="col-sm-6">
                                     <div class="service-content-image">
                                         <img src="./assets/images/Web Solutions.png" alt="">
                                     </div>
                                 </div>
-                                <div class="col-sm-7">
+                                <div class="col-sm-6">
                                     <div class="service-content-section">
                                         <h5>Web Technology</h5>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -77,8 +77,8 @@
                                 </div>
                             </div>
                             <div
-                                class="d-flex gap-2 flex-column-reverse flex-sm-row align-items-center service-content-main">
-                                <div class="col-sm-7">
+                                class="d-flex gap-2 flex-column-reverse flex-sm-row align-items-center justify-content-center service-content-main">
+                                <div class="col-sm-6">
                                     <div class="service-content-section">
                                         <h5>Software Solutions</h5>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -87,13 +87,13 @@
                                         <button class="secondary-button">Read More</button>
                                     </div>
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-6">
                                     <div class="service-content-image">
                                         <img src="./assets/images/Software Solutions.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-flex gap-2 align-items-center service-content-main">
+                            <div class="d-flex gap-2 align-items-center justify-content-center service-content-main">
                                 <div class="col-sm-6">
                                     <div class="service-content-image">
                                         <img src="./assets/images/Graphics Solutions.png" alt="">
@@ -110,7 +110,7 @@
                                 </div>
                             </div>
                             <div
-                                class="d-flex gap-2 align-items-center service-content-main flex-column-reverse flex-sm-row">
+                                class="d-flex gap-2 align-items-center justify-content-center service-content-main flex-column-reverse flex-sm-row">
                                 <div class="col-sm-6">
                                     <div class="service-content-section">
                                         <h5>Mobile App Solutions</h5>
@@ -127,7 +127,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-flex gap-2 align-items-center service-content-main">
+                            <div class="d-flex gap-2 align-items-center justify-content-center service-content-main">
                                 <div class="col-sm-6">
                                     <div class="service-content-image">
                                         <img src="./assets/images/Marketing Solutions.png" alt="">
@@ -145,7 +145,7 @@
                                 </div>
                             </div>
                             <div
-                                class="d-flex gap-2 align-items-center service-content-main flex-column-reverse flex-sm-row">
+                                class="d-flex gap-2 align-items-center justify-content-center service-content-main flex-column-reverse flex-sm-row">
                                 <div class="col-sm-6">
                                     <div class="service-content-section">
                                         <h5>AI Solutions</h5>

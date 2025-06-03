@@ -38,8 +38,8 @@
 }
 
 @media screen and (max-width: 768px) {
-.blog-like-card-image {width:100%; height:100%;}
-.blog-like-card {height:100%; width:100%;}
+/* .blog-like-card-image {width:100%; height:100%;} */
+.blog-like-card {height:500px; width: 320px;}
 .blog-like-content {height:auto; padding:15px;}
 .blog-like-content h5 {font-size:18px; line-height:30px;}
 .blog-like-text h6 {font-size:25px;}
@@ -47,6 +47,6 @@
 
 @media screen and (max-width: 575px) {
 .blog-like-card {height:545px;}
-.blog-like-content {height:200px; padding:10px;}
+.blog-like-content {height:235px; padding:10px;}
 .blog-like-card-image {height:auto;}
 }
