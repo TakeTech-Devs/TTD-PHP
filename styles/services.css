@@ -46,11 +46,12 @@
 
 @media screen and (max-width: 768px) {
 .service-right-content-image {width:75px; height:75px; top:-50px;}
-.service-right-content p{width:200px;}
+.service-right-content p{width:320px;}
+.feedback-text{width: 600px;}
 }
 
 @media screen and (max-width: 575px) {
-.service-right-grid {padding-top:70px;}
+.service-right-grid {padding-top:20px;}
 .service-right-content {width:310px;}
 .feedback-text{width: 350px;}
 }

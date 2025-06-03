@@ -4,7 +4,8 @@
 .contact-banner-image img {object-fit:contain;}
 
 .body-curve-left{background-image: url(../assets/images/ContactUs%20Bg.jpg);background-size: 100% 90%;}
-.home-contactus{margin-top: -30px;}
+.home-contactus{margin-top: 50px;}
+.home-footer {margin-bottom:-40px;}
 /* Contact Form Css */
 .contact-us-form-container {display:flex; align-items:center; justify-content:end;}
 .contactus-background-image {background-color: #fff;padding: 30px;border-radius: 25px;}
