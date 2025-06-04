@@ -188,7 +188,7 @@ p {font-size:16px;}
 .quote-box {font-size:20px;}
 .feedback-author {font-size:18px; padding-right:30px;}
 .feedback-author::before {right:235px;}
-.slick-list.draggable {height:720px !important;}
+/* .slick-list.draggable {height:720px !important;} */
 .feedback-giver {font-size:18px;}
 .feedback-rating li {font-size:20px;}
 }
@@ -206,7 +206,7 @@ p {font-size:16px;}
 .quote-box {padding:15px 65px; font-size:18px;}
 .quote-text, .feedback-author {font-size:16px;}
 .feedback-author::before {right:190px;}
-.slick-list.draggable {height:630px !important;}
+/* .slick-list.draggable {height:630px !important;} */
 .testimonial-container::before {height:60px; width:60px;}
 .testimonial-container::after {height:58px; width:60px;}
 }

@@ -9,11 +9,16 @@ $(function () {
     let autoplayInterval;
 
     function updateSlider() {
-      const offset = -((currentIndex - 1) * 33.33);
+      const slidesToShow = window.innerWidth <= 768 ? 2 : 3;
+      const slideWidth = 100 / slidesToShow;
+      const offset = -((currentIndex - 1) * slideWidth);
+
       $track.css('transform', `translateX(${offset}%)`);
+      $slides.css('width', `${slideWidth}%`);
       $slides.removeClass('active');
       $slides.eq(currentIndex).addClass('active');
     }
+
 
     function nextSlide() {
       currentIndex = (currentIndex + 1) % total;
