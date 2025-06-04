@@ -5,7 +5,7 @@
 
 /* Service Content Css */
 .service-content-text {padding-top:220px;}
-.service-content-image {width:70%;}
+.service-content-image {height:100%; max-height:100%; width:70%; display:flex; justify-content:end; align-items:center;}
 .service-content-image img {object-fit:contain;}
 .service-content-main {margin-bottom:30px;}
 
@@ -46,13 +46,14 @@
 
 @media screen and (max-width: 768px) {
 .service-right-content-image {width:75px; height:75px; top:-50px;}
-.service-right-content p{width:320px;}
+.service-right-content p{width:180px;}
 .feedback-text{width: 600px;}
 }
 
 @media screen and (max-width: 575px) {
 .service-right-grid {padding-top:20px;}
 .service-right-content {width:310px;}
+.service-right-content p{width:320px;}
 .feedback-text{width: 350px;}
 }
 

@@ -8,6 +8,7 @@
 /* .about-content-left-container {width:38% !important;}
 .about-content-right-container {width:48% !important;} */
 .about-content-text {padding-top:220px;}
+.about-content-image{height:100%; max-height:100%; width:100%; display:flex; justify-content:end; align-items:center;}
 .about-content img {object-fit:contain;}
 
 /* About Memories Css */
@@ -59,13 +60,13 @@
 }
 
 @media screen and (max-width: 768px) {
-.about-content-main {gap:25px !important;}
+/* .about-content-main {gap:25px !important;} */
 .about-content-text {padding-top:180px;}
 }
 
 @media screen and (max-width: 575px) {
-.about-content-image {display:flex; justify-content:center;}
-.about-content-image img {height:440px; object-fit:cover;}
+/* .about-content-image {display:flex; justify-content:center;} */
+/* .about-content-image img {height:440px; object-fit:cover;} */
 .about-content-left-container {width:100% !important;}
 .about-content-right-container {width:100% !important;}
 }
@@ -95,7 +96,7 @@
 @media (max-width: 768px) {
 .profile-thumbnail {display:flex; justify-content:center}
 .profile-gallery {flex-wrap:wrap; justify-content:center; overflow-x:hidden;}
-.image-wrap {margin-bottom:20px;}
+/* .image-wrap {margin-bottom:20px;} */
 .image-wrap.active {flex-direction:column; width:100%; align-items:center;}
 .image-wrap.active .profile-thumbnail {width:100%; height:auto; margin:0 0 15px 0;}
 .image-wrap.active .profile-thumbnail img {width:215px; height:250px;}

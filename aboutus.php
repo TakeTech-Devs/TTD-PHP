@@ -71,14 +71,14 @@
 
                     <div class="container-xxl">
                         <div class="row about-content-main">
-                            <div class="about-content-left-container col-sm-5">
+                            <div class="about-content-left-container col-sm-6">
                                 <div class="about-content-image">
                                     <img src="./assets/images/About Content.png" alt="Desktop" class="desktop">
                                 </div>
                             </div>
 
                             <div
-                                class="about-content-right-container col-sm-7 d-flex align-items-center justify-content-space-between">
+                                class="about-content-right-container col-sm-6 d-flex align-items-center justify-content-space-between">
                                 <div class="about-right-content">
                                     <h5>Our History</h5>
                                     <p class="pb-3 pt-3">Initially we started it like a hobby, and people like our work

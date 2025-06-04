@@ -61,12 +61,12 @@
                         </div>
                         <div class="row service-content-header">
                             <div class="d-flex gap-2 align-items-center justify-content-center service-content-main gap-top">
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 d-flex justify-content-center align-items-center">
                                     <div class="service-content-image">
                                         <img src="./assets/images/Web Solutions.png" alt="">
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 d-flex justify-content-center align-items-center">
                                     <div class="service-content-section">
                                         <h5>Web Technology</h5>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -78,7 +78,7 @@
                             </div>
                             <div
                                 class="d-flex gap-2 flex-column-reverse flex-sm-row align-items-center justify-content-center service-content-main">
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 d-flex justify-content-center align-items-center">
                                     <div class="service-content-section">
                                         <h5>Software Solutions</h5>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -87,19 +87,19 @@
                                         <button class="secondary-button">Read More</button>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 d-flex justify-content-center align-items-center">
                                     <div class="service-content-image">
                                         <img src="./assets/images/Software Solutions.png" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="d-flex gap-2 align-items-center justify-content-center service-content-main">
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 d-flex justify-content-center align-items-center">
                                     <div class="service-content-image">
                                         <img src="./assets/images/Graphics Solutions.png" alt="">
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 d-flex justify-content-center align-items-center">
                                     <div class="service-content-section">
                                         <h5>Graphical Solutions</h5>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -111,7 +111,7 @@
                             </div>
                             <div
                                 class="d-flex gap-2 align-items-center justify-content-center service-content-main flex-column-reverse flex-sm-row">
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 d-flex justify-content-center align-items-center">
                                     <div class="service-content-section">
                                         <h5>Mobile App Solutions</h5>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -121,19 +121,19 @@
                                         <button class="secondary-button">Read More</button>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 d-flex justify-content-center align-items-center">
                                     <div class="service-content-image">
                                         <img src="./assets/images/Mobile App Solutions.png" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="d-flex gap-2 align-items-center justify-content-center service-content-main">
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 d-flex justify-content-center align-items-center">
                                     <div class="service-content-image">
                                         <img src="./assets/images/Marketing Solutions.png" alt="">
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 d-flex justify-content-center align-items-center">
                                     <div class="service-content-section">
                                         <h5>Marketing Solutions</h5>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -146,7 +146,7 @@
                             </div>
                             <div
                                 class="d-flex gap-2 align-items-center justify-content-center service-content-main flex-column-reverse flex-sm-row">
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 d-flex justify-content-center align-items-center">
                                     <div class="service-content-section">
                                         <h5>AI Solutions</h5>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -156,7 +156,7 @@
                                         <button class="secondary-button">Read More</button>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 d-flex justify-content-center align-items-center">
                                     <div class="service-content-image">
                                         <img src="./assets/images/AI Solutions.png" alt="">
                                     </div>
