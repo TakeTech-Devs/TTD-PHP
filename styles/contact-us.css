@@ -34,8 +34,8 @@
 
 @media (max-width: 768px) {
 .contact-us-form-container {justify-content:center;}
-iframe {width: 100%; height: 350px;}
-.form-overlay {padding-right:0; padding:20px; height:auto;}
+iframe {width: 230px; height: 300px;}
+.form-overlay {padding-right:0; padding:20px; height:auto; width: 56%;}
 .contact-subscription-form .form-control {font-size:14px;}
 .contact-subscription-form h6 {font-size:25px;}
 .contact-form-wrapper {padding:30px 20px; max-width:100%;}
