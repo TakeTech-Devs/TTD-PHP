@@ -34,7 +34,8 @@
 }
 
 @media screen and (max-width: 575px) {
-.blog-content-image {padding:20px 20px 0px 20px;}
+.blog-content{flex-direction: column;}
+.blog-content-image {padding:20px 20px 20px 20px;}
 }
 
 @media screen and (max-width: 768px) {
