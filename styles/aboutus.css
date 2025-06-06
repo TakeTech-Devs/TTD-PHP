@@ -121,7 +121,7 @@ ul.slick-dots{bottom: -35px;}
 .profile-gallery .slick-next{right: 25%;top: 113%;}
 ul.slick-dots{bottom: -35px;}
 .profile-thumbnail img{width: 115px;}
-.image-wrap.active .content{left: 210px;width: 170px;}
+.image-wrap.active .content{left: 10px;width: 170px;top: 154px;bottom: 5px;background: aliceblue;padding: 5px;}
 .image-wrap.active .profile-thumbnail{height: 290px;width: 170px;}
 .about-contender-logo img {width:20px; height:20px;}
 .content p {font-size:14px;}

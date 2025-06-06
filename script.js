@@ -140,5 +140,8 @@ $(document).ready(function () {
         variableWidth: true,
         arrows: true,
         centerMode: true,
+        responsive: [
+            { breakpoint: 768, settings: { slidesToShow: 1,} }
+        ]
       });
 });
